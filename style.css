@@ -1,0 +1,433 @@
+*{
+    margin:0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.p {
+    margin-bottom: 10px;
+}
+.titulo{
+    text-align:center;
+    color: #184785;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.subti1{
+    margin: 50 px;
+    padding: 15px ;
+    color: #184785;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: grid;
+    align-content:center ;
+    gap: 1rem;
+}
+.subti2{
+    margin: 50 px;
+    padding: 30px ;
+    color: #184785;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.subti3{
+    margin: 50 px;
+    padding: 30px ;
+    color: #184785;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.img{
+    text-align: center;
+}
+.P1
+{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 50 px;
+    padding: 30px ;
+    width: auto;
+    height: auto;
+}
+.P2
+{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 50 px;
+    padding: 30px ;
+    width: auto;
+    height: auto;
+}
+.P3
+{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 50 px;
+    padding: 30px ;
+    width: auto;
+    height: auto;
+}
+.P4
+{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 50 px;
+    padding: 30px ;
+    width: auto;
+    height: auto;
+}
+.P5
+{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 50 px;
+    padding: 30px ;
+    width: auto;
+    height: auto;
+}
+.C1{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 50 px;
+    
+   
+}
+.C2{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 50 px;
+}
+.C3{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 50 px;
+}
+.C4{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 50 px;
+}
+/*.img1{
+    background-color: #3e5f8a;
+    width: 250px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+
+}*/
+.img1 img{
+    width: 250px;
+    height: 150px;
+    /*text-align: center;*/
+    margin-left: 40%;
+    margin-top: 50px;
+}
+.img2 img{
+    width: 250px;
+    height: 150px;
+    /*text-align: center;*/
+    margin-left: 40%;
+    margin-top: 45px;
+}
+.menu{
+    width: 1000px;
+    margin: 5px auto;
+   
+    background:#3e5f8a;
+    margin-top: 10px;
+    /*padding: 1em;
+
+    display: grid;
+    align-content: center;
+    gap: 1rem;*/
+}
+.menu ul{
+    list-style: none ;
+    padding: 1em 0;
+    display: block;
+    
+
+}
+.rob > li{
+    position: relative;
+    display: inline-block;
+
+}
+.rob > li > a
+{
+    display:block ;
+    padding: 10px 20px;
+    color:#e3e5e9;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+
+}
+.rob li a:hover{
+color:#db4444;
+transition: all .3s grid-template-rows;
+
+}
+/*submenu1*/
+.submenu{
+    position: absolute;
+    background: #103361;
+    visibility: hidden;
+    width: 642%;
+    opacity: 0;
+    transition: opacity 1.5s;
+
+}
+.submenu li a{
+    display: block;
+    padding: 15px;
+    color:rgb(235, 238, 241);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+.rob li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+}
+/*Mision del Programa Ing Rob*/
+
+
+.menudos{
+    width: 1000px;
+    margin: 20px auto;
+    background:#3e5f8a;
+    margin-top: 85px;
+}
+.menudos ul{
+    list-style: none ;
+
+}
+.robdos > li{
+    position: relative;
+    display: inline-block;
+
+}
+.robdos > li > a
+{
+    display:block ;
+    padding: 10px 20px;
+    color:#e3e5e9;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+
+}
+.robdos li a:hover{
+    color:#db4444;
+    transition: all .3s;
+    }
+    /*submenu2*/
+    .submenudos{
+        position: absolute;
+        background: #103361;
+        visibility: hidden;
+        width: 389%;
+        opacity: 0;
+        transition: opacity 1.5s;
+    
+    }
+    .submenudos li a{
+        display: block;
+        padding: 15px;
+        color:rgb(235, 238, 241);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-decoration: none;
+    }
+    .robdos li:hover .submenudos{
+        visibility: visible;
+        opacity: 1;
+    }
+    /* menu 3 */
+    .menutres{
+        width: 1000px;
+        margin: 20px auto;
+        background:#3e5f8a;
+        margin-top: 68px;
+    }
+    .menutres ul{
+        list-style: none ;
+    
+    }
+    .robtres > li{
+        position: relative;
+        display: inline-block;
+    
+    }
+    .robtres > li > a
+    {
+        display:block ;
+        padding: 10px 20px;
+        color:#e3e5e9;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-decoration: none;
+    
+    }
+    .robtres li a:hover{
+        color:#db4444;
+        transition: all .3s;
+        }
+        /*submenu3*/
+        .submetres{
+            position: absolute;
+            background: #103361;
+            visibility: hidden;
+            width: 398%;
+            opacity: 0;
+            transition: opacity 1.5s;
+        
+        }
+        .submetres li a{
+            display: block;
+            padding: 15px;
+            color:rgb(235, 238, 241);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-decoration: none;
+        }
+        .robtres li:hover .submetres{
+            visibility: visible;
+            opacity: 1;
+        }  
+    /* menu 4*/
+    .menucuatro{
+        width: 1000px;
+        margin: 20px auto;
+        background:#3e5f8a;
+        margin-top: 15px;
+    }
+    .menucuatro ul{
+        list-style: none ;
+    
+    }
+    .imai > li{
+        position: relative;
+        display: inline-block;
+    
+    }
+    .imai > li > a
+    {
+        display:block ;
+        padding: 10px 20px;
+        color:#e3e5e9;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-decoration: none;
+    
+    }
+    .imai li a:hover{
+        color:#db4444;
+        transition: all .3s;
+        }
+        /*submenu3*/
+        .submenucuatro{
+            position: absolute;
+            background: #103361;
+            visibility: hidden;
+            width: 648%;
+            opacity: 0;
+            transition: opacity 1.5s;
+        
+        }
+        .submenucuatro li a{
+            display: block;
+            padding: 15px;
+            color:rgb(235, 238, 241);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-decoration: none;
+        }
+        .imai li:hover .submenucuatro{
+            visibility: visible;
+            opacity: 1;
+        }
+        /* Menu 5 imai, mision*/
+        
+.menucinco{
+    width: 1000px;
+    margin: 20px auto;
+    background:#3e5f8a;
+    margin-top: 103px;
+}
+.menucinco ul{
+    list-style: none ;
+
+}
+.imaidos > li{
+    position: relative;
+    display: inline-block;
+
+}
+.imaidos > li > a
+{
+    display:block ;
+    padding: 10px 20px;
+    color:#e3e5e9;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+
+}
+.imaidos li a:hover{
+    color:#db4444;
+    transition: all .3s;
+    }
+    /*submenu5*/
+    .submenucinco{
+        position: absolute;
+        background: #103361;
+        visibility: hidden;
+        width: 361%;
+        opacity: 0;
+        transition: opacity 1.5s;
+    
+    }
+    .submenucinco li a{
+        display: block;
+        padding: 15px;
+        color:rgb(235, 238, 241);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-decoration: none;
+    }
+    .imaidos li:hover .submenucinco{
+        visibility: visible;
+        opacity: 1;
+    }
+/* menu 6 */
+.menuseis{
+    width: 1000px;
+    margin: 20px auto;
+    background:#3e5f8a;
+    margin-top: 68px;
+}
+.menuseis ul{
+    list-style: none ;
+
+}
+.imaitres > li{
+    position: relative;
+    display: inline-block;
+
+}
+.imaitres > li > a
+{
+    display:block ;
+    padding: 10px 20px;
+    color:#e3e5e9;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+
+}
+.imaitres li a:hover{
+    color:#db4444;
+    transition: all .3s;
+    }
+    /*submenu6*/
+    .submenuseis{
+        position: absolute;
+        background: #103361;
+        visibility: hidden;
+        width: 398%;
+        opacity: 0;
+        transition: opacity 1.5s;
+    
+    }
+    .submenuseis li a{
+        display: block;
+        padding: 15px;
+        color:rgb(235, 238, 241);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-decoration: none;
+    }
+    .imaitres li:hover .submenuseis{
+        visibility: visible;
+        opacity: 1;
+    }  
