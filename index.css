@@ -264,6 +264,7 @@ nav.sticky .menu-item .sub-menu{
 
 @media (max-width: 1060px){
   nav .navigation .menu{
+    width: 100%;
     position: fixed;
     display: block;
     background: rgba(55, 55, 55, 1);
@@ -359,7 +360,7 @@ nav.sticky .menu-item .sub-menu{
   }
 
   .menu-btn{
-    background: url(./resources/img/menu.png)no-repeat;
+    background: url(./resources/img/menu-icon.svg)no-repeat;
     width: 40px;
     height: 40px;
     background-size: 30px;
