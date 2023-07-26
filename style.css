@@ -9,11 +9,39 @@
     margin-bottom: 10px;
 }
 .titulo{
-    text-align:center;
+    text-align: center;
     color: #184785;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* background-image: url(./flama-roja.svg); */
+    background-size: 100% auto;
+    border-bottom: 1px #D30540 solid;
+    font-size: 27px;
+	/*text-align: center;*/	
+	padding-left: 60px;
+	padding-bottom: 10px;
+	margin-bottom: 25px;
+	color: #143C7C;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-bottom: 1px solid #D30540;
+	line-height: 1.5em;
+	position: relative;
+    font-weight: 600;
+    
 }
-
+.svg{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    background-image: url(flama-roja.svg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    margin-right: 15px;
+    width: 50px;
+    height: 50px;
+    z-index: 10000;
+}
 .subti1{
     margin: 50 px;
     padding: 15px ;
@@ -119,315 +147,16 @@
     margin-left: 40%;
     margin-top: 45px;
 }
-.menu{
-    width: 1000px;
-    margin: 5px auto;
-   
-    background:#3e5f8a;
-    margin-top: 10px;
-    /*padding: 1em;
-
-    display: grid;
-    align-content: center;
-    gap: 1rem;*/
-}
-.menu ul{
-    list-style: none ;
-    padding: 1em 0;
-    display: block;
-    
-
-}
-.rob > li{
-    position: relative;
-    display: inline-block;
-
-}
-.rob > li > a
-{
-    display:block ;
-    padding: 10px 20px;
-    color:#e3e5e9;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-decoration: none;
-
-}
-.rob li a:hover{
-color:#db4444;
-transition: all .3s grid-template-rows;
-
-}
-/*submenu1*/
-.submenu{
-    position: absolute;
-    background: #103361;
-    visibility: hidden;
-    width: 642%;
-    opacity: 0;
-    transition: opacity 1.5s;
-
-}
-.submenu li a{
-    display: block;
-    padding: 15px;
-    color:rgb(235, 238, 241);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-decoration: none;
-}
-.rob li:hover .submenu{
-    visibility: visible;
-    opacity: 1;
-}
-/*Mision del Programa Ing Rob*/
-
-
-.menudos{
-    width: 1000px;
-    margin: 20px auto;
-    background:#3e5f8a;
-    margin-top: 85px;
-}
-.menudos ul{
-    list-style: none ;
-
-}
-.robdos > li{
-    position: relative;
-    display: inline-block;
-
-}
-.robdos > li > a
-{
-    display:block ;
-    padding: 10px 20px;
-    color:#e3e5e9;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-decoration: none;
-
-}
-.robdos li a:hover{
-    color:#db4444;
-    transition: all .3s;
+@media only screen and (max-width: 670px){
+    /* .header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: #fff;
+        box-shadow: 0 0 5px #3d3d3d;
+        z-index: 5;
+    } */
+    .titulo{
+        text-align: left;
     }
-    /*submenu2*/
-    .submenudos{
-        position: absolute;
-        background: #103361;
-        visibility: hidden;
-        width: 389%;
-        opacity: 0;
-        transition: opacity 1.5s;
-    
-    }
-    .submenudos li a{
-        display: block;
-        padding: 15px;
-        color:rgb(235, 238, 241);
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        text-decoration: none;
-    }
-    .robdos li:hover .submenudos{
-        visibility: visible;
-        opacity: 1;
-    }
-    /* menu 3 */
-    .menutres{
-        width: 1000px;
-        margin: 20px auto;
-        background:#3e5f8a;
-        margin-top: 68px;
-    }
-    .menutres ul{
-        list-style: none ;
-    
-    }
-    .robtres > li{
-        position: relative;
-        display: inline-block;
-    
-    }
-    .robtres > li > a
-    {
-        display:block ;
-        padding: 10px 20px;
-        color:#e3e5e9;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        text-decoration: none;
-    
-    }
-    .robtres li a:hover{
-        color:#db4444;
-        transition: all .3s;
-        }
-        /*submenu3*/
-        .submetres{
-            position: absolute;
-            background: #103361;
-            visibility: hidden;
-            width: 398%;
-            opacity: 0;
-            transition: opacity 1.5s;
-        
-        }
-        .submetres li a{
-            display: block;
-            padding: 15px;
-            color:rgb(235, 238, 241);
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            text-decoration: none;
-        }
-        .robtres li:hover .submetres{
-            visibility: visible;
-            opacity: 1;
-        }  
-    /* menu 4*/
-    .menucuatro{
-        width: 1000px;
-        margin: 20px auto;
-        background:#3e5f8a;
-        margin-top: 15px;
-    }
-    .menucuatro ul{
-        list-style: none ;
-    
-    }
-    .imai > li{
-        position: relative;
-        display: inline-block;
-    
-    }
-    .imai > li > a
-    {
-        display:block ;
-        padding: 10px 20px;
-        color:#e3e5e9;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        text-decoration: none;
-    
-    }
-    .imai li a:hover{
-        color:#db4444;
-        transition: all .3s;
-        }
-        /*submenu3*/
-        .submenucuatro{
-            position: absolute;
-            background: #103361;
-            visibility: hidden;
-            width: 648%;
-            opacity: 0;
-            transition: opacity 1.5s;
-        
-        }
-        .submenucuatro li a{
-            display: block;
-            padding: 15px;
-            color:rgb(235, 238, 241);
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            text-decoration: none;
-        }
-        .imai li:hover .submenucuatro{
-            visibility: visible;
-            opacity: 1;
-        }
-        /* Menu 5 imai, mision*/
-        
-.menucinco{
-    width: 1000px;
-    margin: 20px auto;
-    background:#3e5f8a;
-    margin-top: 103px;
 }
-.menucinco ul{
-    list-style: none ;
-
-}
-.imaidos > li{
-    position: relative;
-    display: inline-block;
-
-}
-.imaidos > li > a
-{
-    display:block ;
-    padding: 10px 20px;
-    color:#e3e5e9;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-decoration: none;
-
-}
-.imaidos li a:hover{
-    color:#db4444;
-    transition: all .3s;
-    }
-    /*submenu5*/
-    .submenucinco{
-        position: absolute;
-        background: #103361;
-        visibility: hidden;
-        width: 361%;
-        opacity: 0;
-        transition: opacity 1.5s;
-    
-    }
-    .submenucinco li a{
-        display: block;
-        padding: 15px;
-        color:rgb(235, 238, 241);
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        text-decoration: none;
-    }
-    .imaidos li:hover .submenucinco{
-        visibility: visible;
-        opacity: 1;
-    }
-/* menu 6 */
-.menuseis{
-    width: 1000px;
-    margin: 20px auto;
-    background:#3e5f8a;
-    margin-top: 68px;
-}
-.menuseis ul{
-    list-style: none ;
-
-}
-.imaitres > li{
-    position: relative;
-    display: inline-block;
-
-}
-.imaitres > li > a
-{
-    display:block ;
-    padding: 10px 20px;
-    color:#e3e5e9;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-decoration: none;
-
-}
-.imaitres li a:hover{
-    color:#db4444;
-    transition: all .3s;
-    }
-    /*submenu6*/
-    .submenuseis{
-        position: absolute;
-        background: #103361;
-        visibility: hidden;
-        width: 398%;
-        opacity: 0;
-        transition: opacity 1.5s;
-    
-    }
-    .submenuseis li a{
-        display: block;
-        padding: 15px;
-        color:rgb(235, 238, 241);
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        text-decoration: none;
-    }
-    .imaitres li:hover .submenuseis{
-        visibility: visible;
-        opacity: 1;
-    }  
