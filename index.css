@@ -129,7 +129,7 @@ nav{
   left: 0;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   background: transparent;
   /* box-shadow: 0 5px 25px rgb(0 0 0 / 20%); */
@@ -397,5 +397,6 @@ nav.sticky .menu-item .sub-menu{
 } */
   nav {
     position: sticky;
+    justify-content: flex-end;
   }
 }
